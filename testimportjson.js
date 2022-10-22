@@ -106,7 +106,7 @@ let arrayDatos = [0, //'1YnfAgHxaO4nStTZAKOtGhAPXUtDS65TVwEgz-gIddrc',
                   //'1Ku_VD5IfwbBmcC6yWlj7229eo3WqcimrEWs0p7h_uv8', // Repanocha - BTC - 30m
                   //'1z6NZT3e-4jxSKPuAfCWBnM5IO_UEAhkNfOD-12201Gc', // Repanocha - BTC - 1H
 		  '105qwlRzygPEFmRIKRsjDTlyxhao8x2LZ7JpGWjDyJAE',  // Magnifier - AAVE - 4H
-		  '1E14HEXSNib46hS9INC6OtjpHA_vi7yHcRm492KKa4wU',  // Magnifier - CTK - 4H
+		  '1E14HEXSNib46hS9INC6OtjpHA_vi7yHcRm492KKa4wU'  // Magnifier - CTK - 4H
 
                 ]
 
