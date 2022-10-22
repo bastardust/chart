@@ -80,31 +80,31 @@ $(function() {
 
 //Datos de prueba
 
-let arrayDatos = [0,'1YnfAgHxaO4nStTZAKOtGhAPXUtDS65TVwEgz-gIddrc',
-                   '1oPtoIimnkw3uhAJNzieFcTjh2k9CvBmLsoDL-uvKzu4',
-                   '16YJjgwv-v0D-ppAFgpHyQ6w7TgpT7vp7rxZljGJudMM',
-                  '12jZDFc3_rrpve4efGhpSKnwB0JWQqCMLlBoLWb3DgVU',
-                  '1eqIoOmDcmAzK3y8DorLsCuqst4DsVE9HTo7U2PAwa_g',
-                  '1imKkBY-m4bfDmH2aM14YHq1quz0W6CFBf2OB0CqRFpE',
-                  '1oByVemG3YfrdrVGawhLzpLPa8aSsF1kXSL0kJsTSmaw',
-                  '1pRWdnfbUMC2HxNOsu0USI8EUuZhpUScuFzKoGBg0EtI',
-                  '1dSSnUnRLKPXAGOUFQx69bmJYAeRJhIqZ5iTazYcbYpE',
-                  '1G2lXcJFTPrgLu38iPdpes04RsTN3unWab6TyUn19wLM',
-                  '1y90CJ0jVHS8d6nUel-6z1IAR88JYNOQ4weQDiuf3lEQ',
-                  '1TuZD-I1BJCThsiGkWRX0vuyAc3Hx_sWewPq9A2Gy5lg',
-                  '1vAK_SbnXxAeaSe5yY08nXPnFY1EK2Tx2eNOYGWwwLPs',
-                  '1AOPOBkKxEN7X6KcVj3MTzar6w4vc_u-pJ3kcIKq6f7I',
-                  '1ni_cbQH5fXd9-pfZDxd9iWB_RHGrApahSoI21f0m7XA',
-                  '1kVj6PX5Rs2SSwAYzIlXw8yJUblX-52Vb4FsyYafUxB8',
-                  '1DRPlEr7qKoIs5fI4deFaWNy0-c2x3g7FF76lhpk69fs',
-                  '1geBGh8VlZQo4VS6UeX6EPba69FkvMEhvep_M0tivTV8',
-                  '1FkXuvp1BGBIqQXXfE0k1k0-zpe6FgzQpnkrmrm0phTE',
-                  '1lJ-IbxmQ3ikFXyWcLlHKyvRP-jM68fsLUtuaPshkOqo',
-                  '19BFRRiE-9eDKLJVd8rSQk0XnGXqHXKZuPCOKV0lQ4ks',
-                  '1w-EZkC-spGVShbrwlv8dQGN_x-NHnKrS31R7gmbL3mE', // ZEC
-                  '1J_7-48dTIXV2UaQ4Grekhm_ijlwukFB0PbfGTJJ-AQo', // FTM
-                  '1Ku_VD5IfwbBmcC6yWlj7229eo3WqcimrEWs0p7h_uv8', // Repanocha - BTC - 30m
-                  '1z6NZT3e-4jxSKPuAfCWBnM5IO_UEAhkNfOD-12201Gc', // Repanocha - BTC - 1H
+let arrayDatos = [0,//'1YnfAgHxaO4nStTZAKOtGhAPXUtDS65TVwEgz-gIddrc',
+                   //'1oPtoIimnkw3uhAJNzieFcTjh2k9CvBmLsoDL-uvKzu4',
+                   //'16YJjgwv-v0D-ppAFgpHyQ6w7TgpT7vp7rxZljGJudMM',
+                  //'12jZDFc3_rrpve4efGhpSKnwB0JWQqCMLlBoLWb3DgVU',
+                  //'1eqIoOmDcmAzK3y8DorLsCuqst4DsVE9HTo7U2PAwa_g',
+                  //'1imKkBY-m4bfDmH2aM14YHq1quz0W6CFBf2OB0CqRFpE',
+                  //'1oByVemG3YfrdrVGawhLzpLPa8aSsF1kXSL0kJsTSmaw',
+                  //'1pRWdnfbUMC2HxNOsu0USI8EUuZhpUScuFzKoGBg0EtI',
+                  //'1dSSnUnRLKPXAGOUFQx69bmJYAeRJhIqZ5iTazYcbYpE',
+                  //'1G2lXcJFTPrgLu38iPdpes04RsTN3unWab6TyUn19wLM',
+                  //'1y90CJ0jVHS8d6nUel-6z1IAR88JYNOQ4weQDiuf3lEQ',
+                  //'1TuZD-I1BJCThsiGkWRX0vuyAc3Hx_sWewPq9A2Gy5lg',
+                  //'1vAK_SbnXxAeaSe5yY08nXPnFY1EK2Tx2eNOYGWwwLPs',
+                  //'1AOPOBkKxEN7X6KcVj3MTzar6w4vc_u-pJ3kcIKq6f7I',
+                  //'1ni_cbQH5fXd9-pfZDxd9iWB_RHGrApahSoI21f0m7XA',
+                  //'1kVj6PX5Rs2SSwAYzIlXw8yJUblX-52Vb4FsyYafUxB8',
+                  //'1DRPlEr7qKoIs5fI4deFaWNy0-c2x3g7FF76lhpk69fs',
+                  //'1geBGh8VlZQo4VS6UeX6EPba69FkvMEhvep_M0tivTV8',
+                  //'1FkXuvp1BGBIqQXXfE0k1k0-zpe6FgzQpnkrmrm0phTE',
+                  //'1lJ-IbxmQ3ikFXyWcLlHKyvRP-jM68fsLUtuaPshkOqo',
+                  //'19BFRRiE-9eDKLJVd8rSQk0XnGXqHXKZuPCOKV0lQ4ks',
+                  //'1w-EZkC-spGVShbrwlv8dQGN_x-NHnKrS31R7gmbL3mE', // ZEC
+                  //'1J_7-48dTIXV2UaQ4Grekhm_ijlwukFB0PbfGTJJ-AQo', // FTM
+                  //'1Ku_VD5IfwbBmcC6yWlj7229eo3WqcimrEWs0p7h_uv8', // Repanocha - BTC - 30m
+                  //'1z6NZT3e-4jxSKPuAfCWBnM5IO_UEAhkNfOD-12201Gc', // Repanocha - BTC - 1H
 		  '105qwlRzygPEFmRIKRsjDTlyxhao8x2LZ7JpGWjDyJAE'  // Magnifier - AAVE - 4H
                 ]
 
